@@ -1,0 +1,62 @@
+/*styling h1 element added color and alignment*/
+h1 {
+	color: rgb(250, 244, 244);
+	text-align: center;
+}
+
+/*styling body element addded a background color*/
+body {
+	background-color: #82d1f0;
+}
+
+/*styling table with border collapse*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0px;
+	margin: 10px auto;
+}
+
+/*styling inner elements of table like table rows and columns*/
+table tr td {
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	font-size: 40px;
+	text-align: center;
+}
+.vertical {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.middle {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.verticalMiddle {
+	border: 2px solid black;
+}
+
+/*this winner class is declareed in funtionality.js file and appended to body of html to show the winners*/
+.winner {
+	width: 240px;
+	height: 140px;
+	margin: 10px auto;
+	font-size: 60px;
+	text-align: center;
+}
+.winner span {
+	font-size: 40px;
+	display: block;
+}
+
+/*this id is declared in functionality.js file used to restart the game*/
+#reload {
+	width: 240px;
+	height: 100px;
+	margin: 10px auto;
+	display: block;
+	border: none;
+	background-color: rgb(206, 228, 127);
+	font-size: 40px;
+}
